@@ -28,6 +28,27 @@
         }
     })
 
+     $("#instagram").click(function(event){ 
+       //console.log("instagram");
+       window.location.href  = "https://www.instagram.com/bioraptorentertainment/"; 
+       event.preventDefault();
+     }); 
+     $("#facebook").click(function(event){ 
+       //console.log("facebook");
+       window.location.href  = "https://www.facebook.com/BioRaptorEntertainment/?fref=ts"; 
+        event.preventDefault();
+     }); 
+     $("#twitter").click(function(event){ 
+      //console.log("twitter");
+       window.location.href  = "https://twitter.com/BioRaptor_PB"; 
+       event.preventDefault();
+     }); 
+     $("#github").click(function(event){ 
+       //console.log("github");
+       window.location.href  = "https://github.com/Motts182/"; 
+       event.preventDefault();
+     }); 
+
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
