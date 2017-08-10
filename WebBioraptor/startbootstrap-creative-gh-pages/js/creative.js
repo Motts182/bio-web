@@ -35,7 +35,7 @@
      }); 
      $("#facebook").click(function(event){ 
        //console.log("facebook");
-       window.location.href  = "https://www.facebook.com/BioRaptorEntertainment/?fref=ts"; 
+       window.location.href  = "https://www.facebook.com/bioraptorgames/"; 
         event.preventDefault();
      }); 
      $("#twitter").click(function(event){ 
